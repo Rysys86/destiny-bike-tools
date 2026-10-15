@@ -13,6 +13,7 @@ function createWindow() {
       nodeIntegration: false,
     },
     title: 'Destiny Bike Tools',
+    icon: path.join(__dirname, '../public/images/icons/icon.png'),
     backgroundColor: '#0a0a0f',
   });
 
