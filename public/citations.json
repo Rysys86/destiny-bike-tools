@@ -1,0 +1,224 @@
+{
+  "citations": [
+    {
+      "id": 1,
+      "short": "Shimano Tech Docs 2024",
+      "full": "Shimano Inc. (2024). Technical Documents — Drivetrain Compatibility. Retrieved from https://si.shimano.com",
+      "url": "https://si.shimano.com",
+      "type": "manufacturer",
+      "tags": ["drivetrain", "gearing", "chain"],
+      "tools": ["gearing"],
+      "docs": ["chain-standards", "derailleur"]
+    },
+    {
+      "id": 2,
+      "short": "SRAM Tech Docs 2024",
+      "full": "SRAM LLC. (2024). Technical Support Documentation. Retrieved from https://www.sram.com/en/sram/models/tech-docs",
+      "url": "https://www.sram.com/en/sram/models/tech-docs",
+      "type": "manufacturer",
+      "tags": ["drivetrain", "gearing"],
+      "tools": ["gearing"],
+      "docs": ["chain-standards"]
+    },
+    {
+      "id": 3,
+      "short": "Park Tool — Gear Ratio 2023",
+      "full": "Park Tool Company. (2023). Gear Ratio and Development. Retrieved from https://www.parktool.com/en-us/blog/repair-help/gear-ratio-development",
+      "url": "https://www.parktool.com/en-us/blog/repair-help/gear-ratio-development",
+      "type": "web",
+      "tags": ["gearing", "development"],
+      "tools": ["gearing"],
+      "docs": []
+    },
+    {
+      "id": 4,
+      "short": "LeMond & Gordis 1987",
+      "full": "LeMond, G., & Gordis, K. (1987). Greg LeMond's Complete Book of Bicycling. Perigee Books.",
+      "url": null,
+      "type": "book",
+      "tags": ["bike fit", "saddle height"],
+      "tools": ["fit"],
+      "docs": []
+    },
+    {
+      "id": 5,
+      "short": "Hamley & Thomas 1967",
+      "full": "Hamley, E.J., & Thomas, V. (1967). Physiological and Postural Factors in the Calibration of the Bicycle Ergometer. Journal of Physiology, 191(2), 55–57.",
+      "url": "https://doi.org/10.1113/jphysiol.1967.sp008238",
+      "type": "peer-reviewed",
+      "tags": ["bike fit", "saddle height", "ergometer"],
+      "tools": ["fit"],
+      "docs": []
+    },
+    {
+      "id": 6,
+      "short": "Peveler 2008",
+      "full": "Peveler, W.W. (2008). Effects of Saddle Height on Economy and Anaerobic Power in Well-Trained Cyclists. Journal of Strength and Conditioning Research, 22(4), 1355–1359.",
+      "url": "https://doi.org/10.1519/JSC.0b013e318173dac7",
+      "type": "peer-reviewed",
+      "tags": ["bike fit", "saddle height", "economy"],
+      "tools": ["fit"],
+      "docs": []
+    },
+    {
+      "id": 7,
+      "short": "SILCA Tire Pressure Calculator",
+      "full": "SILCA LLC. (2023). Optimum Tire Pressure Calculator. Retrieved from https://silca.cc/pages/tire-pressure-calculator",
+      "url": "https://silca.cc/pages/tire-pressure-calculator",
+      "type": "web",
+      "tags": ["tire pressure"],
+      "tools": ["tire"],
+      "docs": ["rim-tire"]
+    },
+    {
+      "id": 8,
+      "short": "Schwalbe Tire Pressure Guide 2024",
+      "full": "Schwalbe. (2024). Tire Pressure Guide. Retrieved from https://www.schwalbe.com/en/profi-tips/tire-pressure",
+      "url": "https://www.schwalbe.com/en/profi-tips/tire-pressure",
+      "type": "manufacturer",
+      "tags": ["tire pressure", "tubeless"],
+      "tools": ["tire"],
+      "docs": []
+    },
+    {
+      "id": 9,
+      "short": "ETRTO Standards 2023",
+      "full": "European Tyre and Rim Technical Organisation. (2023). ETRTO Standards Manual. Brussels: ETRTO.",
+      "url": "https://www.etrto.org",
+      "type": "standard",
+      "tags": ["tire", "rim", "ETRTO"],
+      "tools": ["tire"],
+      "docs": ["rim-tire", "wheel-size"]
+    },
+    {
+      "id": 10,
+      "short": "Martin et al. 1998",
+      "full": "Martin, J.C., Milliken, D.L., Cobb, J.E., McFadden, K.L., & Coggan, A.R. (1998). Validation of a Mathematical Model for Road Cycling Power. Journal of Applied Biomechanics, 14(3), 276–291.",
+      "url": "https://doi.org/10.1123/jab.14.3.276",
+      "type": "peer-reviewed",
+      "tags": ["power", "aerodynamics", "CdA", "model"],
+      "tools": ["power"],
+      "docs": []
+    },
+    {
+      "id": 11,
+      "short": "Coggan Power Zones 2003",
+      "full": "Coggan, A.R. (2003). Training and Racing with a Power Meter: A Coggan & Allen Book. VeloPress.",
+      "url": null,
+      "type": "book",
+      "tags": ["power", "FTP", "zones"],
+      "tools": ["power"],
+      "docs": []
+    },
+    {
+      "id": 12,
+      "short": "Olds et al. 1995",
+      "full": "Olds, T.S., Norton, K.I., Lowe, E.L.A., Olive, S., Reay, F., & Ly, S. (1995). Modeling Road-Cycling Performance. Journal of Applied Physiology, 78(4), 1596–1611.",
+      "url": "https://doi.org/10.1152/jappl.1995.78.4.1596",
+      "type": "peer-reviewed",
+      "tags": ["power", "aerodynamics", "CdA"],
+      "tools": ["power"],
+      "docs": []
+    },
+    {
+      "id": 13,
+      "short": "Bearings & Rolling Resistance — Bicycling Science",
+      "full": "Wilson, D.G., & Papadopoulos, J. (2004). Bicycling Science (3rd ed.). MIT Press.",
+      "url": null,
+      "type": "book",
+      "tags": ["rolling resistance", "Crr", "physics"],
+      "tools": ["power"],
+      "docs": []
+    },
+    {
+      "id": 14,
+      "short": "ISO 4210-2:2023",
+      "full": "International Organization for Standardization. (2023). ISO 4210-2: Cycles — Safety requirements for bicycles — Part 2: Requirements for city and trekking, young adult, mountain and racing bicycles.",
+      "url": "https://www.iso.org/standard/82714.html",
+      "type": "standard",
+      "tags": ["frame", "safety", "geometry"],
+      "tools": ["fit"],
+      "docs": ["headset-standards", "brake-mounts"]
+    },
+    {
+      "id": 15,
+      "short": "Cane Creek Headset Standards",
+      "full": "Cane Creek Cycling Components. (2024). Headset Standards Reference Guide. Retrieved from https://www.canecreek.com/resources/headset-standards",
+      "url": "https://www.canecreek.com/resources/headset-standards",
+      "type": "manufacturer",
+      "tags": ["headset", "frame"],
+      "tools": [],
+      "docs": ["headset-standards"]
+    },
+    {
+      "id": 16,
+      "short": "Shimano Hub Technical Info",
+      "full": "Shimano Inc. (2024). Hub Technical Information. Retrieved from https://si.shimano.com",
+      "url": "https://si.shimano.com",
+      "type": "manufacturer",
+      "tags": ["axle", "hub", "wheel"],
+      "tools": [],
+      "docs": ["axle-standards"]
+    },
+    {
+      "id": 17,
+      "short": "DT Swiss Axle Standards",
+      "full": "DT Swiss AG. (2024). Axle Standards Reference. Retrieved from https://www.dtswiss.com",
+      "url": "https://www.dtswiss.com",
+      "type": "manufacturer",
+      "tags": ["axle", "hub", "wheel"],
+      "tools": [],
+      "docs": ["axle-standards"]
+    },
+    {
+      "id": 18,
+      "short": "Wheels Manufacturing BB Standards",
+      "full": "Wheels Manufacturing Inc. (2024). Bottom Bracket Standards Reference. Retrieved from https://www.wheelsmfg.com/bottom-brackets",
+      "url": "https://www.wheelsmfg.com/bottom-brackets",
+      "type": "manufacturer",
+      "tags": ["bottom bracket", "drivetrain"],
+      "tools": ["gearing"],
+      "docs": ["bottom-bracket"]
+    },
+    {
+      "id": 19,
+      "short": "Shimano BR-RS805 Disc Brake Docs",
+      "full": "Shimano Inc. (2024). Disc Brake Technical Documentation. Retrieved from https://si.shimano.com",
+      "url": "https://si.shimano.com",
+      "type": "manufacturer",
+      "tags": ["brake", "disc", "rotor"],
+      "tools": [],
+      "docs": ["disc-brake", "brake-mounts"]
+    },
+    {
+      "id": 20,
+      "short": "Park Tool — Bottom Bracket 2023",
+      "full": "Park Tool Company. (2023). Bottom Bracket Service. Retrieved from https://www.parktool.com/en-us/blog/repair-help/bottom-bracket-service",
+      "url": "https://www.parktool.com/en-us/blog/repair-help/bottom-bracket-service",
+      "type": "web",
+      "tags": ["bottom bracket", "drivetrain"],
+      "tools": [],
+      "docs": ["bottom-bracket"]
+    },
+    {
+      "id": 21,
+      "short": "Flat Mount Brake Standard — SRAM/Shimano",
+      "full": "SRAM LLC. (2019). Flat Mount Brake Adapter Standards. Retrieved from https://www.sram.com",
+      "url": "https://www.sram.com",
+      "type": "manufacturer",
+      "tags": ["brake", "flat mount"],
+      "tools": [],
+      "docs": ["brake-mounts"]
+    },
+    {
+      "id": 22,
+      "short": "Friel — Training Bible 2012",
+      "full": "Friel, J. (2012). The Cyclist's Training Bible (4th ed.). VeloPress.",
+      "url": null,
+      "type": "book",
+      "tags": ["training", "FTP", "zones", "power"],
+      "tools": ["power"],
+      "docs": []
+    }
+  ]
+}

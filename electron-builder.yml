@@ -1,0 +1,29 @@
+appId: com.destinybike.tools
+productName: Destiny Bike Tools
+copyright: "Destiny Bike Tools Contributors"
+
+directories:
+  output: release
+
+files:
+  - dist/**/*
+  - electron/**/*
+  - package.json
+
+win:
+  target: nsis
+  icon: public/images/icons/icon.ico
+
+linux:
+  target: AppImage
+  icon: public/images/icons/icon.png
+  category: Utility
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+
+publish:
+  provider: github
+  releaseType: release

@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": "drivetrain",
+      "label": "Drivetrain",
+      "icon": "GearIcon",
+      "docs": [
+        { "slug": "bottom-bracket",  "title": "Bottom Bracket Standards",        "tags": ["BB","crankset","threaded","press-fit"] },
+        { "slug": "chain-standards", "title": "Chain & Speed Compatibility",     "tags": ["chain","11s","12s","sram","shimano"] },
+        { "slug": "derailleur",      "title": "Derailleur Standards",            "tags": ["rear derailleur","cable pull","mech"] }
+      ]
+    },
+    {
+      "id": "wheels",
+      "label": "Wheels & Tires",
+      "icon": "TireIcon",
+      "docs": [
+        { "slug": "axle-standards",  "title": "Axle & Hub Standards",            "tags": ["QR","thru-axle","148","110","100"] },
+        { "slug": "rim-tire",        "title": "Rim & Tire Width Compatibility",  "tags": ["ETRTO","hookless","tubeless"] },
+        { "slug": "wheel-size",      "title": "Wheel Size Standards",            "tags": ["700c","650b","29er","26"] }
+      ]
+    },
+    {
+      "id": "frame",
+      "label": "Frame & Headset",
+      "icon": "BikeIcon",
+      "docs": [
+        { "slug": "headset-standards","title": "Headset Standards",             "tags": ["threadless","tapered","IS","EC","ZS"] },
+        { "slug": "steerer-tube",    "title": "Fork & Steerer Tube",            "tags": ["1 1/8","tapered","carbon"] },
+        { "slug": "brake-mounts",    "title": "Brake Mount Standards",          "tags": ["flat mount","post mount","IS","PM"] }
+      ]
+    },
+    {
+      "id": "cockpit",
+      "label": "Cockpit",
+      "icon": "WrenchIcon",
+      "docs": [
+        { "slug": "handlebar-clamp", "title": "Handlebar Clamp Diameters",      "tags": ["31.8","35mm","25.4","26mm"] },
+        { "slug": "seatpost-sizes",  "title": "Seatpost Diameter Standards",    "tags": ["27.2","30.9","31.6","34.9"] }
+      ]
+    },
+    {
+      "id": "brakes",
+      "label": "Brakes",
+      "icon": "PowerIcon",
+      "docs": [
+        { "slug": "disc-brake",      "title": "Disc Brake Rotor Standards",     "tags": ["140","160","180","203","centerlock","6-bolt"] },
+        { "slug": "hydraulic-hose",  "title": "Hydraulic Brake Hose & Fittings","tags": ["DOT","mineral oil","olive","barb"] }
+      ]
+    }
+  ]
+}
