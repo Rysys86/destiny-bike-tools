@@ -18,7 +18,7 @@ const TYPE_LABELS = {
   web:             'Web',
 };
 
-export default function Bibliography() {
+export default function Bibliography({ onOpenSearch, onToggleMobile }) {
   const { citations } = useCitations();
 
   const byType = citations.reduce((acc, c) => {
@@ -30,7 +30,12 @@ export default function Bibliography() {
 
   return (
     <div className="flex flex-col h-full">
-      <TopBar title="Sources & Bibliography" subtitle={`${citations.length} references · peer-reviewed · manufacturer · ISO standards · books`} />
+      <TopBar
+        title="Sources & Bibliography"
+        subtitle={`${citations.length} references · peer-reviewed · manufacturer · ISO standards · books`}
+        onOpenSearch={onOpenSearch}
+        onToggleMobile={onToggleMobile}
+      />
       <div className="flex-1 overflow-auto p-6 space-y-6">
         {typeOrder.map(type => {
           const items = byType[type];

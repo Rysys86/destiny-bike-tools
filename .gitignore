@@ -8,3 +8,9 @@ out/
 .DS_Store
 Thumbs.db
 npm-debug.log*
+.gradle/
+android/.gradle/
+android/build/
+android/app/build/
+android/captures/
+*.apk

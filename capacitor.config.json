@@ -1,0 +1,9 @@
+{
+  "appId": "com.destinybike.tools",
+  "appName": "Destiny Bike Tools",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

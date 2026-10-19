@@ -11,16 +11,22 @@
     "build:electron": "vite build && electron-builder",
     "build:win": "vite build && electron-builder --win",
     "build:linux": "vite build && electron-builder --linux",
+    "build:apk": "vite build && cap sync android && cd android && ./gradlew assembleDebug",
+    "android:sync": "vite build && cap sync android",
+    "android:open": "cap open android",
     "preview": "vite preview",
     "electron:dev": "concurrently \"vite\" \"electron .\""
   },
   "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "lucide-react": "^1.57.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "react-router-dom": "^7.18.4",
     "react-markdown": "^10.1.0",
-    "remark-gfm": "^4.0.1",
-    "lucide-react": "^1.57.0"
+    "react-router-dom": "^7.18.4",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0",
